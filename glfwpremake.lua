@@ -1,4 +1,5 @@
 project "GLFW"
+	location "%{wks.name}/glfw"
 	flags { 'NoPCH' }
 	kind "StaticLib"
 	language "C"
