@@ -2,7 +2,7 @@ project "GLFW"
 	flags { 'NoPCH' }
 	kind "StaticLib"
 	language "C"
-	location "glfw"
+	location "./"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
